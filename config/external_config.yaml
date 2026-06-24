@@ -1,0 +1,18 @@
+name: external_ac
+
+state_channels: 5
+action_nums: 7  # max out degree
+
+policy_lr: 0.005
+value_lr: 0.005
+
+reward_decay: 0.9
+
+batch_size: 128
+memory_capacity: 500
+
+#ppo
+#reward_decay: 0.9
+#lmbda: 0.95
+#eps: 0.2
+#epochs: 10

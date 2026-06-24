@@ -1,0 +1,2 @@
+{'name': 'external_ac', 'state_channels': 5, 'action_nums': 7, 'policy_lr': 0.005, 'value_lr': 0.001, 'reward_decay': 0.9, 'batch_size': 128, 'memory_capacity': 500}
+{'name': 'internal_ac', 'state_channels': 5, 'action_nums': 7, 'policy_lr': 0.0005, 'value_lr': 0.0001, 'reward_decay': 0.9, 'batch_size': 128, 'memory_capacity': 500}
